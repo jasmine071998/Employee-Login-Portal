@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="lbjstyle.css">
+</head>
+
+<body>
+    <form action="welcometoLTI.html">
+        <div class="container">
+        <fieldset>
+            <p id="msg"></p>
+
+                <div class="row">
+                    <label for="username">Username</label>
+
+                    <input type="text" id="user" name="firstname" placeholder="">
+                </div><br>
+
+                <div class="row">
+                    <label for="password">Password </label>
+
+                    <input type="password" id="psw" name="lastname" placeholder="">
+                </div>
+
+                <div class="row">
+                    <input type="checkbox" id="remember">
+                        <label id="tnc" for="tnc">Remember Me</label>
+                </div>
+
+                <div class="row">
+                    <div class="col-50">
+                        <input type="button" onclick="login()" value="Login">
+                    </div>
+                </div>
+        </fieldset>
+    </div>
+    </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <script src="validation.js"></script>
+</body>
+
+</html>

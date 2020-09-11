@@ -1,0 +1,92 @@
+/* * {
+box-sizing: border-box;
+text-align: center;
+font-weight: bold;
+}
+input[type=text], select, textarea {
+width: 100%;
+padding: 12px;
+border: 2px solid #748AB1;
+border-radius: 4px;
+resize: vertical;
+}
+label {
+padding: 12px 12px 12px 0;
+display: inline-block;
+}
+input[type=button] {
+background-color: white;
+color: black;
+padding: 12px 20px;
+border: 2px solid #748AB1;
+margin-top:25px;
+cursor: pointer;
+float: center;
+} */
+
+/*#fname, #lname {
+
+border-color:2px #748AB1;
+border-radius: 0;
+}*/
+
+/* #foo{
+width: 20px;
+height: 20px;
+margin-top: 15px;
+margin-left: 50px;
+margin-right: 20px;
+border: 2px solid #748AB1;
+}
+#tnc {
+float:left;
+} */
+
+#msg{
+    color: red;
+    font-size: 25px;
+}
+/* .container {
+margin:300px;
+border:2px solid #748AB1;
+background-color: white;
+padding: 20px;
+}
+.col-25 {
+float: left;
+width: 25%;
+margin-top: 6px;
+}
+    .col-50 {
+float: center;
+width: 70%;
+margin-top: 6px;
+}
+    .col-14 {
+float:left;
+width:14%;
+margin-top:6px;
+}
+.col-86 {
+float:left;
+width:80%;
+margin-top:6px;
+margin-left: 5px;
+}
+.col-75 {
+float: left;
+width: 75%;
+margin-top: 6px;
+} */
+/* Clear floats after the columns */
+/* .row:after {
+content: "";
+display: table;
+clear: both;
+}*/
+
+.container {
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+}

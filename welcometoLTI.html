@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To LTI</title>
+    <style>
+        .header {
+            background-color: #283A90;
+            width: 100%;
+            padding: 20px 20px;
+        }
+
+        /* @media screen and (max-width: 500px) {
+            .header a {
+                float: none;
+                display: block;
+                text-align: left;
+            } */
+    </style>
+</head>
+
+<body>
+    <h3 id="welcome"></h3>
+    <script>
+        var queryString = decodeURIComponent(window.location.search).split('=');
+        document.getElementById('welcome').innerHTML = `Welcome back, ${queryString[1]}`;
+    </script>
+</body>
+
+</html>
